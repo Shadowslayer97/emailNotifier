@@ -1,0 +1,30 @@
+
+{
+  "producer":{
+    "newJob":{
+      "message":"newJob",
+      "gender":"F",
+      "username":"Sushmita",
+      "candidate":{
+        "username":"Ramesh",
+        "profile":"Full stack"
+      }
+    },
+    "updateCandidateStatus":{
+      "message":"updateCandidateStatus",
+      "username":"Mohan",
+      "job":{
+        "profile":"Android development",
+        "status":"Resume downloaded"
+      }
+    },
+    "jobApplied":{
+      "message":"jobApplied",
+      "username":"Rohan",
+      "job":{
+        "profile":"Full stack",
+        "company":"HR Globals Pvt Ltd."
+      }
+    }
+  }
+}

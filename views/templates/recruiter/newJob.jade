@@ -1,0 +1,10 @@
+
+html
+  head
+  body
+    p
+      | Hello !{query.username},
+      | A new job has been added to the website similar to your interests
+      | The details of which are as follows:
+      | !{query.job.profile} at !{query.job.company}
+      | Date of advertisement : !{query.job.created_at}

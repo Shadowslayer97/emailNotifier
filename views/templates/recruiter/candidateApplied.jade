@@ -1,0 +1,11 @@
+
+html
+  head
+  body
+    p
+      | Hello !{query.gender=='M'?'Mr.':'Mrs'} !{query.username},
+      | The details of the candidate recently applied are as follows:
+      | <b>Name: </b> !{query.candidate.username}
+      | <b>Applied for :</b> !{query.candidate.profile}
+      | Please look at the application in our website and do the necssary.
+      

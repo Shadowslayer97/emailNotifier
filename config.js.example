@@ -1,0 +1,9 @@
+var config = {
+  "systemEmail":"random@gmail.com", //sender email
+  "systemEmailPassword":"122345",   //sender email password
+  "testEmail":"srirangsathyan17@gmail.com" //email to check the content
+  "client_id":"", //google oauth2 api client id
+  "client_secret":"" //client secret
+}
+
+exports.config = config;
